@@ -1,4 +1,7 @@
-h1 {
-    color: rgb(143, 177, 49);
-    font-size: 50px;
-}
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 24px; font-family: system-ui, sans-serif; color: #203b30; background: #eff5ed; }
+main { width: 100%; max-width: 620px; padding: clamp(28px, 7vw, 64px); background: #fffef9; border: 1px solid #dbe5d6; border-radius: 24px; box-shadow: 0 20px 60px #203b300a; }
+.badge { display: inline-block; padding: 8px 12px; border-radius: 100px; background: #e9f1e4; color: #45643c; font-size: 12px; font-weight: 600; letter-spacing: .04em; }
+h1 { margin: 24px 0 16px; font-size: clamp(32px, 6vw, 52px); line-height: 1.1; letter-spacing: -.045em; overflow-wrap: anywhere; }
+h1 span { color: #6b8d47; }
+p { margin: 0; max-width: 340px; color: #617068; font-size: 16px; line-height: 1.7; }
